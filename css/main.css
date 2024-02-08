@@ -4,7 +4,8 @@ html {
 
 
 body {
-
+    background-image: url("/images/17580.jpg");
+    min-height: 100vh;
 }
 
 
