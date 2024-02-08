@@ -9,6 +9,26 @@ body {
 }
 
 
+
+/* Define background colors for odd and even sections */
+.inner:nth-child(even) {
+    background-color: #f2f7fb;
+}
+
+.inner:nth-child(odd) {
+    background-color: white;
+}
+
+.about-me {
+    background-color: #f2f7fb;
+}
+
+.meet-les {
+    background-color: white; /* Background color for the meet-les section */
+}
+
+
+
 /* Navbar styles */
 
 /* Add underline effect on hover for navbar links */
@@ -55,3 +75,4 @@ body {
 .footer-bottom nav {
     width: 100%; /* Ensure footer spans full width */
 }
+
