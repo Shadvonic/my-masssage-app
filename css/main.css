@@ -32,3 +32,25 @@ body {
 .container-fluid.py-5 {
     color: black;
 }
+
+
+
+/* Footer */
+
+.bottom {
+    display: flex;
+    align-items: center; /* Vertically center items */
+    justify-content: space-between; /* Distribute items evenly */
+}
+
+.footer-social a {
+    margin-left: 10px; /* Adjust spacing between icons */
+}
+
+.footer-bottom {
+    padding: 85px; /* Adjust padding as needed */
+}
+
+.footer-bottom nav {
+    width: 100%; /* Ensure footer spans full width */
+}
