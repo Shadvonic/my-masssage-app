@@ -1,5 +1,6 @@
 html {
     font-family: Arial, sans-serif; /* Specify a fallback font family */
+    color: #0F1035; /* Text color */
 }
 
 body {
@@ -8,6 +9,48 @@ body {
     margin: 0; /* Remove default margin */
     color: #0F1035; /* Text color */
 }
+
+/*  custom button */
+/* Dark primary button */
+.btn.btn-primary.btn-lg {
+    background-color: #365486; /* Background color */
+    color: #DCF2F1; /* Text color */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s, color 0.3s; /* Add transition for smooth effect */
+    border: none; /* Remove border */
+}
+
+.btn.btn-primary.btn-lg:hover {
+    background-color: #7FC7D9; /* Change background color on hover */
+    color: #0F1035; /* Change text color on hover */
+}
+
+/* Light primary button */
+.btn.btn-primary {
+    background-color: #7FC7D9; /* Background color */
+    color: #0F1035; /* Text color */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s, color 0.3s; /* Add transition for smooth effect */
+    border: none; /* Remove border */
+}
+
+.btn.btn-primary:hover {
+    background-color: #DCF2F1; /* Change background color on hover */
+    color: #365486; /* Change text color on hover */
+}
+
+.btn.btn-outline-primary {
+    border-color: #365486; /* Adjust border color */
+    color: #365486; /* Text color */
+}
+
+.btn.btn-outline-primary:hover {
+    background-color: #DCF2F1; /* Change background color on hover */
+    color: #365486; /* Change text color on hover */
+    border-color: #7FC7D9; /* Adjust border color on hover */
+}
+
+
 
 /* Navbar styles */
 
@@ -74,6 +117,40 @@ body {
     border-color: #7FC7D9; /* Button border color */
     color: #0F1035; /* Button text color */
 }
+
+
+
+/* Services Section */
+.our-services {
+    background-color: #DCF2F1; /* Background color */
+    color: #365486; /* Text color */
+}
+
+.card {
+    background-color: #fff; /* Card background color */
+    border: none; /* Remove card border */
+    border-radius: 10px; /* Adjust card border radius */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow to card */
+    margin-bottom: 8px; /* Adjust the margin bottom to reduce the gap */
+}
+
+.card-title {
+    color: #365486; /* Title color */
+}
+
+.card-text {
+    color: #365486; /* Text color */
+}
+
+.img-fluid {
+    border-radius: 10px; /* Adjust image border radius */
+}
+
+.text-body-secondary {
+    color: #0F1035; /* Secondary text color */
+}
+
+
 
 /* Booking section */
 .full-screen-image {
