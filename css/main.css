@@ -1,44 +1,30 @@
 html {
-
+    font-family: Arial, sans-serif; /* Specify a fallback font family */
 }
-
 
 body {
-    background-image: url("/images/17580.jpg");
+   
     min-height: 100vh;
+    margin: 0; /* Remove default margin */
+    color: #0F1035; /* Text color */
 }
-
-
-
-/* Define background colors for odd and even sections */
-.inner:nth-child(even) {
-    background-color: #f2f7fb;
-}
-
-.inner:nth-child(odd) {
-    background-color: white;
-}
-
-.about-me {
-    background-color: #f2f7fb;
-}
-
-.meet-les {
-    background-color: white; /* Background color for the meet-les section */
-}
-
-
 
 /* Navbar styles */
 
-/* Add underline effect on hover for navbar links */
-.navbar-nav .nav-link:hover {
-    text-decoration: underline;
+
+.navbar-nav .nav-link {
+    color: #0F1035; /* Navbar link color */
+    text-decoration: none; /* Remove default underline */
 }
 
-/* Add underline effect on hover for dropdown links */
-.dropdown-menu .dropdown-item:hover {
-    text-decoration: underline;
+.navbar-nav .nav-link:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+.dropdown-menu .dropdown-item {
+    color: #0F1035; /* Dropdown link color */
+    text-decoration: none; /* Remove default underline */
+    
 }
 
 /* Show dropdown menu on hover */
@@ -46,20 +32,54 @@ body {
     display: block;
 }
 
-
-
-/*  Main Banner Info styles */
-
-.container-fluid.py-5 {
-    color: black;
+.dropdown-menu .dropdown-item:hover {
+    text-decoration: underline; /* Add underline on hover */
 }
 
+/* Main Banner Info styles */
+.banner {
+    background-image: url('/images/banner-img.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0; /* Adjust padding as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #DCF2F1; /* Text color in the banner */
+}
 
-/* Booking */
+.banner-content {
+    padding-top: 20px; /* Adjusted top padding */
+    margin-top: 0; /* Removed top margin */
+}
+
+.banner-content h6 {
+    margin-top: 0; /* Pin to the top of the container */
+    font-size: 1.2em;
+    color: #7FC7D9; /* Color for company name */
+}
+
+.banner-content h1 {
+    margin-bottom: 20px;
+}
+
+.banner-content p {
+    margin-bottom: 30px;
+    font-size: 1.2em; /* Adjusted font size */
+}
+
+.banner-content .btn {
+    background-color: #7FC7D9; /* Button background color */
+    border-color: #7FC7D9; /* Button border color */
+    color: #0F1035; /* Button text color */
+}
+
+/* Booking section */
 .full-screen-image {
     position: relative;
     height: 100vh;
-    background-image: url('/images/pexels-ron-lach-9146378.jpg');
+    background-image: url('/images/book-appt-banner.jpg');
     width: 1920px;
     height: 1080px;
     background-size: cover;
@@ -72,7 +92,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity as needed */
+    background-color: rgba(15, 16, 53, 0.5); /* Adjust the opacity as needed */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -99,26 +119,25 @@ body {
     font-size: 1.2em;
 }
 
-
-
-
 /* Footer */
-
 .bottom {
     display: flex;
     align-items: center; /* Vertically center items */
     justify-content: space-between; /* Distribute items evenly */
 }
 
-.footer-social a {
-    margin-left: 10px; /* Adjust spacing between icons */
+.footer-bottom {
+    background-color: white; /* Footer background color */
+    color: #0F1035; /* Footer text color */
+    padding: 85px; /* Adjust padding as needed */
 }
 
-.footer-bottom {
-    padding: 85px; /* Adjust padding as needed */
+
+.footer-social a {
+    color: #0F1035; /* Social media icon color */
+    margin-left: 10px; /* Adjust spacing between icons */
 }
 
 .footer-bottom nav {
     width: 100%; /* Ensure footer spans full width */
 }
-

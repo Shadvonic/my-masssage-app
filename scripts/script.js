@@ -1,3 +1,5 @@
+
+/*
 // Define event listener for document ready
 document.addEventListener('DOMContentLoaded', function() {
     // Execute code when the DOM is fully loaded
@@ -37,3 +39,4 @@ function displayReviews(reviews) {
         reviewsContainer.appendChild(reviewElement);
     });
 }
+*/
