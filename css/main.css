@@ -127,6 +127,12 @@ body {
     color: #365486; /* Text color */
   }
 
+  .col-md-6 {
+    padding: 0;
+
+  }
+
+
   .our-services .card {
     background-color: #fff; /* Card background color */
     border: none; /* Remove card border */
@@ -144,13 +150,6 @@ body {
     text-align: center; /* Justify text */
   }
 
-  .our-services .row {
-    margin-bottom: 20px; /* Adjust margin between rows */
-  }
-
-  .our-services .col-md-6 {
-    margin-bottom: 20px; /* Adjust margin between columns */
-  }
 
   .card-title {
     color: #365486; /* Title color */
@@ -164,8 +163,6 @@ body {
   .text-body-secondary {
     color: #0F1035; /* Secondary text color */
   }
-
-
 
 
 /* Booking section */
