@@ -18,7 +18,7 @@ body {
     color: #0F1035; /* Change text color on hover */
     cursor: pointer; /* Change cursor to pointer on hover */
     transition: background-color 0.3s, color 0.3s; /* Add transition for smooth effect */
-    border: none; /* Remove border */
+    border-color: black;
 }
 
 .btn.btn-primary.btn-lg:hover {
@@ -32,7 +32,7 @@ body {
     color: #0F1035; /* Text color */
     cursor: pointer; /* Change cursor to pointer on hover */
     transition: background-color 0.3s, color 0.3s; /* Add transition for smooth effect */
-    border: none; /* Remove border */
+    border-color: #365486;
 }
 
 .btn.btn-primary:hover {
@@ -87,6 +87,19 @@ body {
 .dropdown-menu .dropdown-item:hover {
     text-decoration: underline; /* Add underline on hover */
 }
+
+/* Dropdown menu items */
+
+  .dropdown-item {
+    color: #365486 !important; /* Text color */
+  }
+  
+  /* Hover effect */
+  .dropdown-item:hover {
+    background-color: #DCF2F1 !important;
+    color:  #365486 !important;
+  }
+  
 
 /* Main Banner Info styles */
 .banner {
