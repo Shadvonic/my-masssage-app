@@ -13,16 +13,17 @@ body {
 /*  custom button */
 /* Dark primary button */
 .btn.btn-primary.btn-lg {
-    background-color: #365486; /* Background color */
-    color: #DCF2F1; /* Text color */
+   
+    background-color: #7FC7D9; /* Change background color on hover */
+    color: #0F1035; /* Change text color on hover */
     cursor: pointer; /* Change cursor to pointer on hover */
     transition: background-color 0.3s, color 0.3s; /* Add transition for smooth effect */
     border: none; /* Remove border */
 }
 
 .btn.btn-primary.btn-lg:hover {
-    background-color: #7FC7D9; /* Change background color on hover */
-    color: #0F1035; /* Change text color on hover */
+    background-color: #365486; /* Background color */
+    color: #DCF2F1; /* Text color */
 }
 
 /* Light primary button */
@@ -53,7 +54,15 @@ body {
 
 
 /* Navbar styles */
-
+.navbar-nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-nav .nav-item {
+    margin-right: 15px;
+  }
+  
 
 .navbar-nav .nav-link {
     color: #0F1035; /* Navbar link color */
@@ -125,11 +134,6 @@ body {
  .our-services {
     background-color: #DCF2F1; /* Background color */
     color: #365486; /* Text color */
-  }
-
-  .col-md-6 {
-    padding: 0;
-
   }
 
 
@@ -209,6 +213,43 @@ body {
     font-size: 1.2em;
 }
 
+
+
+/* Contact  Section */
+
+.contact-info {
+    background-color: #DCF2F1; /* Background color */
+  }
+  
+  .text-body-emphasis {
+    color: #365486; /* Primary text color */
+    font-weight: bold;
+  }
+  
+  .text-body-secondary {
+    color: #0F1035; /* Secondary text color */
+    font-size: 16px;
+  }
+  
+
+/* Location Section  */
+
+.map-section {
+    position: relative;
+    height: 400px; /* Adjust the height as needed */
+    margin-top: 50px; /* Adjust the margin as needed */
+}
+
+.map-container {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
 /* Footer */
 .bottom {
     display: flex;
@@ -231,3 +272,5 @@ body {
 .footer-bottom nav {
     width: 100%; /* Ensure footer spans full width */
 }
+
+

@@ -39,4 +39,22 @@ function displayReviews(reviews) {
         reviewsContainer.appendChild(reviewElement);
     });
 }
+
+
+function initMap() {
+    var mapOptions = {
+        center: {lat: 40.6869, lng: -73.6475}, // Adjust to center the map on your desired location
+        zoom: 15, // Adjust the zoom level as needed
+        mapTypeId: google.maps.MapTypeId.ROADMAP
+    };
+
+    var map = new google.maps.Map(document.getElementById('google-map'), mapOptions);
+
+    var marker = new google.maps.Marker({
+        position: {lat: 40.6869, lng: -73.6475}, // Adjust to set the marker at your desired location
+        map: map,
+        title: '455 Maryann Ln, West Hempstead, NY 11552, United States'
+    });
+}
+
 */

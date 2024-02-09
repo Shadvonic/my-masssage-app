@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <meta charset="utf-8" />
     <meta
@@ -18,93 +19,60 @@
     <header class="sticky-top">
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="index.html"
-            ><img
-              src="./images/sm_LOGO-180w.png"
-              alt="Small Logo"
-              width="75"
-              height="75"
-          /></a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
+          <a class="navbar-brand" href="index.html">
+            <img src="./images/sm_LOGO-180w.png" alt="Small Logo" width="75" height="75">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-
+    
           <!-- DROPDOWN MENUS-->
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav me-auto">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="#">HOME</a>
               </li>
               <!-- First dropdown for Massage -->
               <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown"
-                  href="#"
-                  id="facialsDropdown"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  MASSAGE
-                </a>
+                <a class="nav-link dropdown" href="#" id="facialsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">MASSAGE</a>
                 <ul class="dropdown-menu" aria-labelledby="facialsDropdown">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </li>
+                  <li><a class="dropdown-item" href="#our-services">Prenatal</a></li>
+                  <li><a class="dropdown-item" href="#our-services">Swedish</a></li>
+                  <li><a class="dropdown-item" href="#our-services">Deep Tissue</a></li>
+                  <li><a class="dropdown-item" href="#our-services">Medical Massage</a></li>
+                  <li><a class="dropdown-item" href="#our-services">Deep Oscillation</a></li>
                 </ul>
               </li>
               <!-- Second dropdown for Stretch -->
               <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown"
-                  href="#"
-                  id="massageDropdown"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  STRETCH
-                </a>
+                <a class="nav-link dropdown" href="#" id="massageDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">STRETCH</a>
                 <ul class="dropdown-menu" aria-labelledby="massageDropdown">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </li>
+                  <li><a class="dropdown-item" href="#our-services">Sport Stretch</a></li>
                 </ul>
               </li>
             </ul>
-
+    
             <!-- Right Side NavBar -->
             <ul class="navbar-nav">
-              <!---- Gift Card link -->
+              <!-- Gift Card link -->
               <li class="nav-item">
-                <a class="nav-link" href="purchase-gift-card.html"
-                  >Gift cards</a
-                >
+                <a class="nav-link" href="purchase-gift-card.html">Gift cards</a>
               </li>
-
-              <!---- Book Appointment btn-->
+    
               <li class="nav-item">
-                <a class="btn btn-primary" href="book-appointment.html"
-                  >Book Appointment</a
-                >
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+    
+              <!-- Book an Appointment btn-->
+              <li class="nav-item">
+                <a class="btn btn-primary" href="book-appointment.html">Book an Appointment</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
     </header>
+    
 
     <!-- Main Banner Info -->
     <section class="banner">
@@ -213,7 +181,7 @@
               to fit the client’s needs.
             </p>
             <a class="btn btn-primary mb-4" href="book-appointment.html"
-              >Book Appointment</a
+              >Book an Appointment</a
             >
             <a class="btn btn-outline-primary mb-4" href="book-appointment.html"
               >Buy a Gift Card</a
@@ -234,7 +202,7 @@
 
     <!----Our Services-->
     <!-- Title -->
-    <section class="our-services py-5">
+    <section id="our-services" class="our-services py-5">
         <div class="container">
           <h2 class="text-center mb-5">Our Services</h2>
           
@@ -256,7 +224,7 @@
                                             <p class="card-text text-body-emphasis">
                                                 Prenatal Massage is a nurturing massage that focuses on the special needs of mothers-to-be during pregnancy.
                                             </p>
-                                            <a class="btn btn-primary mb-4" href="book-appointment.html">Book Appointment</a>
+                                            <a class="btn btn-primary mb-4" href="book-appointment.html">Book an Appointment</a>
                                         </div>
                                     </div>
                                 </div>
@@ -268,7 +236,7 @@
                             <div class="card mb-3" style="max-width: 540px;">
                                 <div class="row g-0">
                                     <div class="col-md-4 order-md-1">
-                                        <img src="./images/massage-1.jpg" class="img-fluid h-100" alt="Service Image - Right" />
+                                        <img src="./images/massage-2.jpg" class="img-fluid h-100" alt="Service Image - Right" />
                                     </div>
                                     <div class="col-md-8 order-md-1">
                                         <div class="card-body">
@@ -276,7 +244,7 @@
                                             <p class="card-text text-body-emphasis">
                                                 A Swedish massage is designed to relax the entire body by rubbing the muscles in long, gliding strokes in the direction of blood returning to the heart.
                                             </p>
-                                            <a class="btn btn-primary mb-4" href="book-appointment.html">Book Appointment</a>
+                                            <a class="btn btn-primary mb-4" href="book-appointment.html">Book an Appointment</a>
                                         </div>
                                     </div>
                                 </div>
@@ -292,7 +260,7 @@
                     <div class="row g-0">
                         <!-- Image column with order-md-1 -->
                         <div class="col-md-4 order-md-2">
-                            <img src="./images/massage-1.jpg"  class="img-fluid h-100" alt="Service Image - Left" />
+                            <img src="./images/massage-3.jpg"  class="img-fluid h-100" alt="Service Image - Left" />
                         </div>
                         <!-- Text column with order-md-2 -->
                         <div class="col-md-8 order-md-1">
@@ -301,7 +269,7 @@
                                 <p class="card-text text-body-emphasis">
                                   A deep tissue massage may improve circulation, reduce minor aches and pain, increase range of motion, and ease inflammation. 
                                 </p>
-                                <a class="btn btn-primary mb-4" href="book-appointment.html">Book Appointment</a>
+                                <a class="btn btn-primary mb-4" href="book-appointment.html">Book an Appointment</a>
                             </div>
                         </div>
                     </div>
@@ -314,7 +282,7 @@
                     <div class="row g-0">
                         <!-- Image column with order-md-2 -->
                         <div class="col-md-4 order-md-2">
-                            <img src="./images/massage-1.jpg"  class="img-fluid h-100" alt="Service Image - Left" />
+                            <img src="./images/massage-4.jpg"  class="img-fluid h-100" alt="Service Image - Left" />
                         </div>
                         <!-- Text column with order-md-1 -->
                         <div class="col-md-8 order-md-1">
@@ -323,7 +291,7 @@
                                 <p class="card-text text-body-emphasis">
                                   A medically oriented massage, used to alleviate the strain and irritation associated with medical conditions. Specific conditions that can benefit.
                                 </p>
-                                <a class="btn btn-primary mb-4" href="book-appointment.html">Book Appointment</a>
+                                <a class="btn btn-primary mb-4" href="book-appointment.html">Book an Appointment</a>
                             </div>
                         </div>
                     </div>
@@ -340,7 +308,7 @@
               <div class="row g-0">
                 <div class="col-md-4 order-md-1">
                   <img
-                    src="./images/massage-1.jpg"
+                    src="./images/massage-5.jpg"
                      class="img-fluid h-100"
                     alt="Service Image - Left"
                   />
@@ -352,7 +320,7 @@
                       We Provide Customized Massage Treatments to Suite the Individual's Needs and Health Concerns. Pre/Post Surgeries Frozen Shoulder Sports Injuries and Correct Postural Alignment Issues.
                     </p>
                     <a class="btn btn-primary mb-4" href="book-appointment.html"
-                      >Book Appointment</a
+                      >Book an Appointment</a
                     >
                   </div>
                 </div>
@@ -378,7 +346,7 @@
                       Deep Oscillation Therapy is a unique therapeutic treatment for rehab that is FDA-approved for muscle relaxation, increasing circulation, and pain relief.
                     </p>
                     <a class="btn btn-primary mb-4" href="book-appointment.html"
-                      >Book Appointment</a
+                      >Book an Appointment</a
                     >
                   </div>
                 </div>
@@ -415,8 +383,6 @@
       </button>
     </div>
 
-
-
     <!-- Meet Les -->
     <section class="meet-les py-5 mt-5">
       <div class="container">
@@ -436,8 +402,50 @@
       </div>
     </section>
 
-    <!--- Location -->
+
+
+    <!--- Contact/business info-->
+    <section id="contact"class="contact-info py-5">
+      <div class="container">
+        <div class="row">
+          <!-- Phone Number -->
+          <div class="col-md-4 text-center">
+            <p class="text-body-emphasis">Phone</p>
+            <p class="text-body-secondary">(516) 225-1998</p>
+            <p class="text-body-secondary">(516) 400-3382</p>
+            <p class="text-body-secondary">Info@lespaulmassage.com</p>
+          </div>
+
+          <!-- Address -->
+        
+      <div class="col-md-4 text-center">
+        <p class="text-body-emphasis">Address</p>
+        <p class="text-body-secondary">455 Maryann Ln<br>West Hempstead, NY 11552<br>United States</p>
+      </div>
+
+          <!-- Business Hours -->
+          <div class="col-md-4 text-center">
+        <p class="text-body-emphasis">Business Hours</p>
+        <p class="text-body-secondary">
+          Mon: 12:00 PM – 7:00 PM<br>
+          Tue: 12:00 PM – 7:00 PM<br>
+          Wed: 12:00 PM – 7:00 PM<br>
+          Thu: 12:00 PM – 7:00 PM<br>
+          Fri: 12:00 PM – 7:00 PM
+        </p>
+      </div>
+      </div>
+    </section>
     
+
+
+   <!-- Section with Google Maps -->
+
+
+
+
+
+
 
     <!-- Footer -->
     <div class="footer-bottom">
@@ -509,8 +517,11 @@
       </nav>
     </div>
 
+    <!--- Scripts-->
     <script src="./scripts/vendor/jquery/jquery-3.6.4.min.js"></script>
     <script src="./scripts/vendor/js/bootstrap.bundle.min.js"></script>
     <script src="./scripts/script.js"></script>
+
+
   </body>
 </html>
