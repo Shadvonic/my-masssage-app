@@ -1,5 +1,5 @@
 
-/*
+
 // Define event listener for document ready
 document.addEventListener('DOMContentLoaded', function() {
     // Execute code when the DOM is fully loaded
@@ -40,7 +40,7 @@ function displayReviews(reviews) {
     });
 }
 
-
+/*
 function initMap() {
     var mapOptions = {
         center: {lat: 40.6869, lng: -73.6475}, // Adjust to center the map on your desired location
