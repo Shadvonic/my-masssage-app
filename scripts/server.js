@@ -26,7 +26,7 @@ app.get('/reviews', async (req, res) => {
     try {
         // Fetch Google Reviews data using Place ID and API Key
         const placeId = '0x89c2634d608d9871:0x6d0bb4d57395792b'; // Replace with your actual Place ID
-        const apiKey = 'AIzaSyAeAe32x8XCpxrytFGu55632lG05gV7h2g'; // Replace with your actual API Key
+        const apiKey = 'AIzaSyCa035hWhxG5_7t-nh4kZy9qRroWNm5A9g'; // Replace with your actual API Key
         const url = `https://maps.googleapis.com/maps/api/place/details/json?place_id=${placeId}&fields=name,rating,reviews&key=${apiKey}`;
         const response = await fetch(url);
         const data = await response.json();
