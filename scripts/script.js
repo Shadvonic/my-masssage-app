@@ -1,44 +1,37 @@
+document.addEventListener("DOMContentLoaded", function () {
+    // Fetch Google Reviews data using Place ID and API Key
+    const placeId = '0x89c2634d608d9871:0x6d0bb4d57395792b'; // Replace with your actual Place ID
+    const apiKey = 'AIzaSyAeAe32x8XCpxrytFGu55632lG05gV7h2g'; // Replace with your actual API Key
+    const url = `https://maps.googleapis.com/maps/api/place/details/json?place_id=${placeId}&fields=name,rating,reviews&key=${apiKey}`;
 
-
-// Define event listener for document ready
-document.addEventListener('DOMContentLoaded', function() {
-    // Execute code when the DOM is fully loaded
-
-    // Example: Fetch Google Reviews data
-    fetchGoogleReviews();
-});
-
-// Function to fetch Google Reviews data
-function fetchGoogleReviews() {
-    // Make a GET request to your backend server to fetch Google Reviews data
-    fetch('/reviews')
+    fetch(url)
         .then(response => response.json())
         .then(data => {
-            // Process the fetched data
-            displayReviews(data);
+            // Extract and display reviews
+            if (data.result && data.result.reviews) {
+                const reviews = data.result.reviews;
+                const reviewsList = document.getElementById('reviews-list');
+
+                reviews.forEach(review => {
+                    const listItem = document.createElement('li');
+                    listItem.innerHTML = `
+                        <div class="review-item">
+                            <div class="author">${review.author_name}</div>
+                            <div class="rating">Rating: ${review.rating}</div>
+                            <div class="text">${review.text}</div>
+                        </div>
+                    `;
+                    reviewsList.appendChild(listItem);
+                });
+            } else {
+                console.error('No reviews found');
+            }
         })
         .catch(error => {
             console.error('Error fetching Google Reviews:', error);
         });
-}
+});
 
-// Function to display Google Reviews on the webpage
-function displayReviews(reviews) {
-    // Example: Update the DOM with the fetched reviews
-    const reviewsContainer = document.getElementById('reviews-container');
-    reviewsContainer.innerHTML = '';
-
-    reviews.forEach(review => {
-        const reviewElement = document.createElement('div');
-        reviewElement.classList.add('review');
-        reviewElement.innerHTML = `
-            <h3>${review.author}</h3>
-            <p>${review.text}</p>
-            <p>Rating: ${review.rating}</p>
-        `;
-        reviewsContainer.appendChild(reviewElement);
-    });
-}
 
 /*
 function initMap() {
