@@ -6,7 +6,7 @@
     <meta
       id="view"
       name="viewport"
-      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=5, viewport-fit=cover, shrink-to-fit=no"
+      content="width=device-width, initial-scale=1,  viewport-fit=cover, shrink-to-fit=no"
     />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <title>LesPaul Massage Therapy</title>
@@ -30,7 +30,7 @@
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav me-auto">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
               </li>
               <!-- First dropdown for Massage -->
               <li class="nav-item dropdown">
@@ -41,6 +41,7 @@
                   <li><a class="dropdown-item" href="#our-services">Deep Tissue</a></li>
                   <li><a class="dropdown-item" href="#our-services">Medical Massage</a></li>
                   <li><a class="dropdown-item" href="#our-services">Deep Oscillation</a></li>
+                  <li><a class="dropdown-item" href="#our-services">Sport</a></li>
                 </ul>
               </li>
               <!-- Second dropdown for Stretch -->
@@ -50,7 +51,18 @@
                   <li><a class="dropdown-item" href="#our-services">Sport Stretch</a></li>
                 </ul>
               </li>
+              <!-- Third dropdown for Insurance -->
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown" href="#" id="massageDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">INSURANCE</a>
+                  <ul class="dropdown-menu" aria-labelledby="massageDropdown">
+                    <li><a class="dropdown-item" href="NoFault.html">No Fault</a></li>
+                    <li><a class="dropdown-item" href="https://portal.holbie.com/form/YCL/BFC">Insurance Verification</a></li>
+                  </ul>
+                </li>
+              </ul>
             </ul>
+        
+           
     
             <!-- Right Side NavBar -->
             <ul class="navbar-nav">
@@ -200,188 +212,148 @@
       </div>
     </section>
 
+  
+
     <!----Our Services-->
     <!-- Title -->
     <section id="our-services" class="our-services py-5">
-        <div class="container">
+      <div class="container">
           <h2 class="text-center mb-5">Our Services</h2>
-          
-          <div class="text-center" style="padding: 0; margin: 0;">
-            <section class="our-services py-5">
-                <div class="container">
-                    <!-- First Row-->
-                    <div class="row">
-                        <!-- Prenatal -->
-                        <div class="col-md-6">
-                            <div class="card mb-3" style="max-width: 540px">
-                                <div class="row g-0">
-                                    <div class="col-md-4 order-md-1">
-                                        <img src="./images/massage-1.jpg" class="img-fluid h-100" alt="Service Image - Left" />
-                                    </div>
-                                    <div class="col-md-8 order-md-1">
-                                        <div class="card-body">
-                                            <h5 class="card-title fw-bold">Prenatal</h5>
-                                            <p class="card-text text-body-emphasis">
-                                                Prenatal Massage is a nurturing massage that focuses on the special needs of mothers-to-be during pregnancy.
-                                            </p>
-                                            <a class="btn btn-primary mb-4" href="book-appointment.html">Book an Appointment</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-        
-                        <!-- Swedish -->
-                        <div class="col-md-6">
-                            <div class="card mb-3" style="max-width: 540px;">
-                                <div class="row g-0">
-                                    <div class="col-md-4 order-md-1">
-                                        <img src="./images/massage-2.jpg" class="img-fluid h-100" alt="Service Image - Right" />
-                                    </div>
-                                    <div class="col-md-8 order-md-1">
-                                        <div class="card-body">
-                                            <h5 class="card-title fw-bold">Swedish</h5>
-                                            <p class="card-text text-body-emphasis">
-                                                A Swedish massage is designed to relax the entire body by rubbing the muscles in long, gliding strokes in the direction of blood returning to the heart.
-                                            </p>
-                                            <a class="btn btn-primary mb-4" href="book-appointment.html">Book an Appointment</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
 
-          <!---Second Row -->
           <div class="row">
-            <!-- Deep Tissue -->
-            <div class="col-md-6">
-                <div class="card mb-3" style="max-width: 540px">
-                    <div class="row g-0">
-                        <!-- Image column with order-md-1 -->
-                        <div class="col-md-4 order-md-2">
-                            <img src="./images/massage-3.jpg"  class="img-fluid h-100" alt="Service Image - Left" />
-                        </div>
-                        <!-- Text column with order-md-2 -->
-                        <div class="col-md-8 order-md-1">
-                            <div class="card-body">
-                                <h5 class="card-title fw-bold">Deep Tissue</h5>
-                                <p class="card-text text-body-emphasis">
-                                  A deep tissue massage may improve circulation, reduce minor aches and pain, increase range of motion, and ease inflammation. 
-                                </p>
-                                <a class="btn btn-primary mb-4" href="book-appointment.html">Book an Appointment</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        
-            <!-- Medical Massage -->
-            <div class="col-md-6">
-                <div class="card mb-3" style="max-width: 540px;">
-                    <div class="row g-0">
-                        <!-- Image column with order-md-2 -->
-                        <div class="col-md-4 order-md-2">
-                            <img src="./images/massage-4.jpg"  class="img-fluid h-100" alt="Service Image - Left" />
-                        </div>
-                        <!-- Text column with order-md-1 -->
-                        <div class="col-md-8 order-md-1">
-                            <div class="card-body">
-                                <h5 class="card-title fw-bold">Medical Massage</h5>
-                                <p class="card-text text-body-emphasis">
-                                  A medically oriented massage, used to alleviate the strain and irritation associated with medical conditions. Specific conditions that can benefit.
-                                </p>
-                                <a class="btn btn-primary mb-4" href="book-appointment.html">Book an Appointment</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
+              <!-- Prenatal -->
+              <div class="col-md-6">
+                  <div class="card mb-3">
+                      <div class="row g-0">
+                          <div class="col-md-4 order-md-1">
+                              <img src="./images/massage-1.jpg" class="img-fluid" alt="Service Image - Left" />
+                          </div>
+                          <div class="col-md-8 order-md-1">
+                              <div class="card-body">
+                                  <h5 class="card-title fw-bold">Prenatal</h5>
+                                  <p class="card-text text-body-emphasis">
+                                      Prenatal Massage is a nurturing massage that focuses on the special needs of mothers-to-be during pregnancy.
+                                  </p>
+                                  <a class="btn btn-primary mb-4" href="book-appointment.html">Book an Appointment</a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
 
-          <!---Third  Row -->
-          <div class="row">
-            <!---- Sport Stretch  -->
-          <div class="col-md-6">
-            <div class="card mb-3" style="max-width: 540px">
-              <div class="row g-0">
-                <div class="col-md-4 order-md-1">
-                  <img
-                    src="./images/massage-5.jpg"
-                     class="img-fluid h-100"
-                    alt="Service Image - Left"
-                  />
-                </div>
-                <div class="col-md-8 order-md-1">
-                  <div class="card-body">
-                    <h5 class="card-title fw-bold">Sport Stretch</h5>
-                    <p class="card-text text-body-emphasis">
-                      We Provide Customized Massage Treatments to Suite the Individual's Needs and Health Concerns. Pre/Post Surgeries Frozen Shoulder Sports Injuries and Correct Postural Alignment Issues.
-                    </p>
-                    <a class="btn btn-primary mb-4" href="book-appointment.html"
-                      >Book an Appointment</a
-                    >
+              <!-- Swedish -->
+              <div class="col-md-6">
+                  <div class="card mb-3">
+                      <div class="row g-0">
+                          <div class="col-md-4 order-md-1">
+                              <img src="./images/massage-2.jpg" class="img-fluid" alt="Service Image - Right" />
+                          </div>
+                          <div class="col-md-8 order-md-1">
+                              <div class="card-body">
+                                  <h5 class="card-title fw-bold">Swedish</h5>
+                                  <p class="card-text text-body-emphasis">
+                                      A Swedish massage is designed to relax the entire body by rubbing the muscles in long, gliding strokes in the direction of blood returning to the heart.
+                                  </p>
+                                  <a class="btn btn-primary mb-4" href="book-appointment.html">Book an Appointment</a>
+                              </div>
+                          </div>
+                      </div>
                   </div>
-                </div>
               </div>
-            </div>
           </div>
-    
-          <!---- Deep Oscillation -->
-          <div class="col-md-6">
-            <div class="card mb-3" style="max-width: 540px;">
+
+
+            <!-- Second Row -->
+    <div class="row">
+      <!-- Deep Tissue -->
+      <div class="col-md-6">
+          <div class="card mb-3">
               <div class="row g-0">
-                <div class="col-md-4 order-md-1">
-                  <img
-                    src="./images/massage-1.jpg"
-                     class="img-fluid h-100"
-                    alt="Service Image - Right"
-                  />
-                </div>
-                <div class="col-md-8 order-md-1">
-                  <div class="card-body">
-                    <h5 class="card-title fw-bold">Deep Oscillation</h5>
-                    <p class="card-text text-body-emphasis">
-                      Deep Oscillation Therapy is a unique therapeutic treatment for rehab that is FDA-approved for muscle relaxation, increasing circulation, and pain relief.
-                    </p>
-                    <a class="btn btn-primary mb-4" href="book-appointment.html"
-                      >Book an Appointment</a
-                    >
+                  <div class="col-md-4 order-md-2">
+                      <img src="./images/massage-3.jpg" class="img-fluid" alt="Service Image - Left" />
                   </div>
-                </div>
+                  <div class="col-md-8 order-md-1">
+                      <div class="card-body">
+                          <h5 class="card-title fw-bold">Deep Tissue</h5>
+                          <p class="card-text text-body-emphasis">
+                              A deep tissue massage may improve circulation, reduce minor aches and pain, increase range of motion, and ease inflammation.
+                          </p>
+                          <a class="btn btn-primary mb-4" href="book-appointment.html">Book an Appointment</a>
+                      </div>
+                  </div>
               </div>
-            </div>
           </div>
-        </div>
       </div>
-        </div>
-    </section>
+
+      <!-- Medical Massage -->
+      <div class="col-md-6">
+          <div class="card mb-3">
+              <div class="row g-0">
+                  <div class="col-md-4 order-md-2">
+                      <img src="./images/massage-4.jpg" class="img-fluid" alt="Service Image - Left" />
+                  </div>
+                  <div class="col-md-8 order-md-1">
+                      <div class="card-body">
+                          <h5 class="card-title fw-bold">Medical Massage</h5>
+                          <p class="card-text text-body-emphasis">
+                              A medically oriented massage, used to alleviate the strain and irritation associated with medical conditions. Specific conditions that can benefit.
+                          </p>
+                          <a class="btn btn-primary mb-4" href="book-appointment.html">Book an Appointment</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </div>
+
+    <!-- Third Row -->
+    <div class="row">
+      <!-- Sport Stretch -->
+      <div class="col-md-6">
+          <div class="card mb-3">
+              <div class="row g-0">
+                  <div class="col-md-4 order-md-1">
+                      <img src="./images/massage-5.jpg" class="img-fluid" alt="Service Image - Left" />
+                  </div>
+                  <div class="col-md-8 order-md-1">
+                      <div class="card-body">
+                          <h5 class="card-title fw-bold">Sport Stretch</h5>
+                          <p class="card-text text-body-emphasis">
+                              We Provide Customized Massage Treatments to Suite the Individual's Needs and Health Concerns. Pre/Post Surgeries Frozen Shoulder Sports Injuries and Correct Postural Alignment Issues.
+                          </p>
+                          <a class="btn btn-primary mb-4" href="book-appointment.html">Book an Appointment</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <!-- Deep Oscillation -->
+      <div class="col-md-6">
+          <div class="card mb-3">
+              <div class="row g-0">
+                  <div class="col-md-4 order-md-1">
+                      <img src="./images/massage-1.jpg" class="img-fluid" alt="Service Image - Right" />
+                  </div>
+                  <div class="col-md-8 order-md-1">
+                      <div class="card-body">
+                          <h5 class="card-title fw-bold">Deep Oscillation</h5>
+                          <p class="card-text text-body-emphasis">
+                              Deep Oscillation Therapy is a unique therapeutic treatment for rehab that is FDA-approved for muscle relaxation, increasing circulation, and pain relief.
+                          </p>
+                          <a class="btn btn-primary mb-4" href="book-appointment.html">Book an Appointment</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </div>
+
+        </section>
     
     
     <!---- Google Reviews -->
-    <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
-      <div class="carousel-indicators" id="carouselIndicators"></div>
-      <div class="carousel-inner" id="carouselInner"></div>
-      <button
-        class="carousel-control-prev"
-        type="button"
-        data-bs-target="#myCarousel"
-        data-bs-slide="prev"
-      >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button
-        class="carousel-control-next"
-        type="button"
-        data-bs-target="#myCarousel"
-        data-bs-slide="next"
-      >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
+ 
 
     <!-- Meet Les -->
     <section class="meet-les py-5 mt-5">
@@ -402,6 +374,7 @@
       </div>
     </section>
 
+   
 
     <!--- Contact/business info-->
     <section id="contact"class="contact-info py-5">
@@ -462,7 +435,7 @@
         <li>Overuse Syndromes</li>
         <li>Respiratory issues</li>
       </ul>
-      <a href="book-appointment.html" class="btn">Make an Appointment</a>
+      <a class="btn btn-primary" href="book-appointment.html">Book an Appointment</a>
     </div>
   </section>
 
